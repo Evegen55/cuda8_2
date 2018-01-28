@@ -72,7 +72,7 @@ int main(void)
 Error:
 	cudaFree(d_x);
 	cudaFree(d_y);
-	free(x);
-	free(y);
+	//free(x);
+	//free(y);
 	return cudaStatus;
 }
